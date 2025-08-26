@@ -1,0 +1,14 @@
+{
+    "name": "ai-code-reviewer",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "sonar-reviewer.js",
+    "scripts": {
+      "review": "node sonar-reviewer.js"
+  },  
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.15.0"
+  }
+}
